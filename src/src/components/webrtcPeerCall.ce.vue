@@ -48,6 +48,7 @@
     import Peer from 'skyway-js'
     export default {
         name: 'webrtcPeerCall',
+        inheritAttrs: false,
         data: function(){
             return{
                 localStream: null,
