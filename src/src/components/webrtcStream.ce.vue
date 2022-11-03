@@ -6,7 +6,6 @@
       id="localVideo"
       v-if="isStreaming"
     >
-      thier video
     </video>
     <div class="buttons">
       <button v-on:click="startCall" v-if="!isStreaming" title="start stream">
